@@ -1,36 +1,20 @@
 # .gcloudignore
-# これに指定されたファイルは Cloud Run へのデプロイ時に無視されます。
+# デプロイに不要なファイルのみを指定
 
-# Git 関連
+# Git
 .git/
 .gitignore
 
-# Python 関連
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-.Python
-env/
 venv/
 .venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.pytest_cache/
-.coverage
-htmlcov/
 
-# 環境変数・秘密情報 (万が一作成した場合のため)
-.env
-.env.local
-.env.*
-*.json
-!project-*.json  # もし特定のJSONが必要な場合はここを調整
-
-# エディタ・OS 関連
+# OS/エディタ
+.DS_Store
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db
 
 # このファイル自体
 .gcloudignore
