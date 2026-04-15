@@ -45,7 +45,7 @@ gcloud run deploy ga4-report-service \
   --allow-unauthenticated \
   --set-env-vars GA_PROPERTY_ID=[GA4側のID] \
   --service-account [作成したサービスアカウントのメールアドレス] \
-   7   --project [プロジェクトID]
+  --project [プロジェクトID]
 ```
 
 ## 3. APIの使い方
